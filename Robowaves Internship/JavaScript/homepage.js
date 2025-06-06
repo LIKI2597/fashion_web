@@ -235,14 +235,14 @@ categories.forEach(category => {
   category.addEventListener('click', () => {
     const categoryId = category.querySelector('img').id;
     const categoryLinks = {
-      men: '../HTML/men.html',
-      women: '../HTML/women.html',
-      kids: '../HTML/kids.html',
-      jewellery: '../HTML/jewellery.html',
-      shoes: '../HTML/shoes.html',
-      beauty: '../HTML/beauty.html',
-      decor: '../HTML/decor.html',
-      home: '../HTML/home.html'
+      men: 'Robowaves Internship/HTML/men.html',
+      women: 'Robowaves Internship/HTML/women.html',
+      kids: 'Robowaves Internship/HTML/kids.html',
+      jewellery: 'Robowaves Internship/HTML/jewellery.html',
+      shoes: 'Robowaves Internship/HTML/shoes.html',
+      beauty: 'Robowaves Internship/HTML/beauty.html',
+      decor: 'Robowaves Internship/HTML/decor.html',
+      home: 'Robowaves Internship/HTML/home.html'
     };
 
     if (categoryLinks[categoryId]) {

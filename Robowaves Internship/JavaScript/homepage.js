@@ -235,7 +235,7 @@ categories.forEach(category => {
   category.addEventListener('click', () => {
     const categoryId = category.querySelector('img').id;
     const categoryLinks = {
-      men: 'Robowaves Internship/HTML/men.html',
+      men: 'men.html',
       women: 'Robowaves Internship/HTML/women.html',
       kids: 'Robowaves Internship/HTML/kids.html',
       jewellery: 'Robowaves Internship/HTML/jewellery.html',

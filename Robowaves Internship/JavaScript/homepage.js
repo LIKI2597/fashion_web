@@ -236,13 +236,13 @@ categories.forEach(category => {
     const categoryId = category.querySelector('img').id;
     const categoryLinks = {
       men: 'men.html',
-      women: 'Robowaves Internship/HTML/women.html',
-      kids: 'Robowaves Internship/HTML/kids.html',
-      jewellery: 'Robowaves Internship/HTML/jewellery.html',
-      shoes: 'Robowaves Internship/HTML/shoes.html',
-      beauty: 'Robowaves Internship/HTML/beauty.html',
-      decor: 'Robowaves Internship/HTML/decor.html',
-      home: 'Robowaves Internship/HTML/home.html'
+      women: 'women.html',
+      kids: 'kids.html',
+      jewellery: 'jewellery.html',
+      shoes: 'shoes.html',
+      beauty: 'beauty.html',
+      decor: 'decor.html',
+      home: 'home.html'
     };
 
     if (categoryLinks[categoryId]) {
